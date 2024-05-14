@@ -1,12 +1,11 @@
-pandas 
-train_test_split
-StandardScaler
-IsolationForest
-KMeans
-LocalOutlierFactor
-OneClassSVM
-SimpleImputer
-accuracy_score
-HDBSCAN
-DBSCAN
-scikit-learn
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import IsolationForest
+from sklearn.cluster import KMeans
+from sklearn.neighbors import LocalOutlierFactor
+from sklearn.svm import OneClassSVM
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import accuracy_score
+from hdbscan import HDBSCAN
+from sklearn.cluster import DBSCAN
